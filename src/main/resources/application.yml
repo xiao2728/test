@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    #key: (空格)值
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:jdbc: mysql://localhost:3306/kgc
+    username: root
+    password: 1234+
