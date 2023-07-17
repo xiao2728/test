@@ -9,14 +9,16 @@ spring:
 #      active: prod
 
 
-#logging:
-#  level:
-#        #root: info
-#    com:
-#      example:
-#        controller: debug
-#  file:
-#    path: logback.xml
-#server:
-#  port: 80
-
+logging:
+  level:
+        root: info
+    com:
+      example:
+        controller: debug
+  file:
+    path: logback.xml
+server:
+  port: 80
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.example.springboot002.pojo
