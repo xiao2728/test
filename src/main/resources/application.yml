@@ -1,22 +1,22 @@
+#key: (空格)值
 spring:
   datasource:
-    #key: (空格)值
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/kgc
+    url: jdbc:mysql://localhost:3306/news?serverTimezone=UTC
     username: root
     password: 1234
-    profiles:
-      active: prod
+#    profiles:
+#      active: prod
 
 
-logging:
-  level:
-        #root: info
-    com:
-      example:
-        controller: debug
-  file:
-    path: logback.xml
-server:
-  port: 80
+#logging:
+#  level:
+#        #root: info
+#    com:
+#      example:
+#        controller: debug
+#  file:
+#    path: logback.xml
+#server:
+#  port: 80
 
