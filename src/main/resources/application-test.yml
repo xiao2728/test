@@ -1,0 +1,18 @@
+server:
+  port: 8086
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.198.128:3306/news
+    username: root
+    password: Xiao@123456
+  redis:
+    host: 192.168.198.128
+    prot: 6379
+    password: 123456
+    #使用第几个数据库，0-15 0是第一个库
+    database: 1
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.example.springboot002.pojo
+

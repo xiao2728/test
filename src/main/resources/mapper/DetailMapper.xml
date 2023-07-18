@@ -3,6 +3,6 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- namespace代表你当前的xml文件绑定的是哪个Mapper接口-->
-<mapper namespace="com.example.springboot002.dao.DetailMapper">
+<mapper namespace="com.example.springboot002.mapper.DetailMapper">
 
 </mapper>
